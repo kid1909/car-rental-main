@@ -23,8 +23,7 @@ function Contact() {
                 carrental@carmail.com
               </a>
               <a href="/">
-                <i className="fa-solid fa-location-dot"></i>&nbsp; Belgrade,
-                Serbia
+                <i className="fa-solid fa-location-dot"></i>&nbsp; Surrey,Canada
               </a>
             </div>
             <div className="contact-div__form">

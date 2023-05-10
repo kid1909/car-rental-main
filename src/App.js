@@ -7,11 +7,14 @@ import Models from "./Pages/Models";
 import TestimonialsPage from "./Pages/TestimonialsPage";
 import Team from "./Pages/Team";
 import Contact from "./Pages/Contact";
+import type { AppProps } from "next/app";
+import { Analytics } from "@vercel/analytics/react";
 
-function App() {
+function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Navbar />
+      <Analytics />
       <Routes>
         <Route index path="/" element={<Home />} />
         <Route path="about" element={<About />} />
